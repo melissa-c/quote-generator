@@ -1,0 +1,65 @@
+html {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #000;
+  font-family: 'Judson', serif;
+}
+
+.main {
+  background-color: #009999;
+  padding: 30px 30px 25px 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.quoteArea {
+  margin-bottom: 60px;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+}
+
+h2 {
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+  color: #e6e6e6;
+}
+
+img {
+  max-width: 70px;
+  max-height: 46px;
+  width: 20%;
+  height: 20%;
+}
+
+.openQuote {
+  margin-right: 20px; 
+}
+
+.closeQuote {
+  float: right;
+  margin: 10px 0 0 20px; 
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+}
+
+
+
