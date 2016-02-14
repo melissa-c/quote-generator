@@ -83,7 +83,7 @@ $(document).ready(function(){
       "author": "Louis C.K."
     },
     {
-      "quote": "What happens after you die? Lot's of things happen \
+      "quote": "What happens after you die? Lots of things happen \
               after you die - they just don't involve you.",
       "author": "Louis C.K."
     },
