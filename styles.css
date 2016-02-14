@@ -1,11 +1,16 @@
 html {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 560px;
   background-color: #000;
   font-family: 'Judson', serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main {
+  min-width: 340px;
   background-color: #009999;
   padding: 30px 30px 25px 30px;
   margin-bottom: 20px;
@@ -13,7 +18,7 @@ html {
 }
 
 .quoteArea {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 h2,
@@ -23,43 +28,58 @@ h3 {
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 50px;
+  line-height: 40px;
   color: #fff;
 }
 
 h2 {
   text-align: justify;
+  font-size: 20px;
 }
 
 h3 {
   text-align: center;
   color: #e6e6e6;
+  font-size: 18px;
 }
 
 img {
-  max-width: 70px;
-  max-height: 46px;
+  max-width: 50px;
+  max-height: 33px;
   width: 20%;
   height: 20%;
 }
 
 .openQuote {
+  float: left;
   margin-right: 20px; 
 }
 
 .closeQuote {
   float: right;
-  margin: 10px 0 0 20px; 
+  margin: 2px 0 0 20px; 
 }
 
-button {
-  display: block;
-  margin: 0 auto;
+.buttons {
+  margin-bottom: 20px;
+  /*text-align: center;*/
+  display: inline;
+}
+
+.newQuote {
+  float: left;
+  cursor: pointer;
   padding: 5px 10px;
+  width: 90px;
+  height: 28px;
+  margin: 0 20px 20px 0;
   background-color: #fff;
   border-radius: 5px;
+  border: none;
   color: #000;
 }
 
-
-
+#container {
+  margin-bottom: 10px; 
+}
